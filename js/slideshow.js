@@ -2,13 +2,11 @@ const slidesContainer = document.querySelector('.slideshow-container');
 let currentSlide = 0;
 let images = [];
 
-// Load images dynamically
 function loadImages() {
     images = [
         'images/photo1.jpg',
         'images/photo2.jpg',
         'images/photo3.jpg',
-        // Add more photo file names here
     ];
 
     images.forEach((image, index) => {
@@ -22,7 +20,6 @@ function loadImages() {
     });
 }
 
-// Smooth transition for changing slides
 function showSlide(nextSlide) {
     const slides = document.querySelectorAll('.slide');
 
@@ -51,12 +48,9 @@ function prevSlide() {
     showSlide(prevSlideIndex);
 }
 
-// Automatic slideshow interval
-setInterval(nextSlide, 5000); // Change slide every 5 seconds
+setInterval(nextSlide, 5000); 
 
-// Load the images and start the slideshow
 loadImages();
 
-// Manual control buttons
 document.getElementById('next').addEventListener('click', nextSlide);
 document.getElementById('prev').addEventListener('click', prevSlide);
