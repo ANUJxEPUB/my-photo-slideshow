@@ -8,6 +8,7 @@ function loadImages() {
     images = [
         'images/photo_1010-10-10.jpg',
         'images/photo_2020-06-17.jpg',
+        'images/photo_2024-09-25.jpg',
         // Add more photo file names here following this pattern
     ];
 
