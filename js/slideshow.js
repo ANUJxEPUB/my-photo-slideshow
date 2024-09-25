@@ -6,8 +6,8 @@ let images = [];
 // Load images dynamically with filenames containing dates
 function loadImages() {
     images = [
-        'images/photo_2024-09-26.jpg',
-        'images/photo_2024-06-17.jpg',
+        'images/photo_2024-06-19.jpg',
+        'images/photo_2024-09-23.jpg',
         'images/photo_2024-09-25.jpg',
         // Add more photo file names here following this pattern
     ];
