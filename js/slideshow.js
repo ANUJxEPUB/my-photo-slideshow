@@ -9,6 +9,9 @@ function loadImages() {
         'images/photo_2024-06-19.jpg',
         'images/photo_2024-09-23.jpg',
         'images/photo_2024-09-25.jpg',
+        'images/photo_2024-09-02.jpg',
+        'images/photo_2024-09-19.jpg',
+        'images/photo_2024-09-09.jpg',
         // Add more photo file names here following this pattern
     ];
 
